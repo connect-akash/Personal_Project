@@ -1,0 +1,22 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "mongodb backend",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/connect-akash/Personal_Project.git"
+  },
+  "author": "akash",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/connect-akash/Personal_Project/issues"
+  },
+  "homepage": "https://github.com/connect-akash/Personal_Project#readme",
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
