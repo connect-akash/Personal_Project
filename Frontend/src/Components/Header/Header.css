@@ -1,5 +1,30 @@
 .header{
     width: 100%;
-    background-color: red;
-    height: 3rem;
+    background: rgb(18,194,233);
+    background: linear-gradient(90deg, rgba(18,194,233,1) 0%, rgba(246,79,89,1) 51%,#fff95b);
+    background-size: 300% 300%;
+    animation: color 35s ease-in-out infinite;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.title{
+    font-family:georgia;
+    font-size: 30px;
+    color: white;
+    
+}
+
+
+@keyframes color{
+    0%{
+        background-position: 0 50%;
+    }
+    50%{
+        background-position: 100% 50%;
+    }
+    100%{
+        background-position: 0 50%;
+    }
 }

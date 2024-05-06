@@ -1,13 +1,15 @@
 
 import { useState } from "react";
 import './Header.css'
-
+import 'bootstrap/dist/css/bootstrap.min.css';
 function Header (){
     
 
     return(
         <div className="header">
-                hello cruel world
+                <div className="title">
+                Ticket Generate
+                </div>
         </div>
     )
 

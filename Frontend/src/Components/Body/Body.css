@@ -1,4 +1,27 @@
 .body{
     
-    background-color: blue;
+    display: flex;
+    height: 90vh;
+    background: rgb(18,194,233);
+    background: linear-gradient(90deg, rgba(18,194,233,1) 0%, rgba(246,79,89,1) 51%,#fff95b);
+    background-size: 300%;
+    animation: color 35s ease-in-out infinite;
+    justify-content: center;
+    align-items: center;
+}
+
+.form_div{
+
+}
+
+@keyframes color{
+    0%{
+        background-position: 0 50%;
+    }
+    50%{
+        background-position: 100% 50%;
+    }
+    100%{
+        background-position: 0 50%;
+    }
 }
